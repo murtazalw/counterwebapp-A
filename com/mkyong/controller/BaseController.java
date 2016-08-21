@@ -10,8 +10,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class BaseController {
 
+<<<<<<< HEAD
 	private static int counter = 5;
 	private static final String VIEW_INDEX = "index-5";
+=======
+	private static int counter = 3;
+	private static final String VIEW_INDEX = "index-3";
+	int i=0;
+>>>>>>> branch 'master' of https://github.com/murtazalw/CounterWebApp.git
 	private final static org.slf4j.Logger logger = LoggerFactory.getLogger(BaseController.class);
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
