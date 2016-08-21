@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class BaseController {
 
-	private static int counter = 4;
-	private static final String VIEW_INDEX = "index-1";
-	int i=1;
+	private static int counter = 1;
+	private static final String VIEW_INDEX = "index-2";
 	private final static org.slf4j.Logger logger = LoggerFactory.getLogger(BaseController.class);
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
